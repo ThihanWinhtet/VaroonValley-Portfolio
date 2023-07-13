@@ -1,0 +1,31 @@
+
+
+.cu_main input{
+    display: block;
+    width: 98%;
+    height: 4rem;
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 5px 2px 15px 0px rgba(178, 178, 178, 0.496);
+}
+.cu_main button{
+    border: none;
+    background-color: rgb(61, 123, 255);
+    color: white;
+    padding: 1rem 4rem;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+}
+@media screen and (min-width : 768px) {
+    .contact{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 10rem;
+    }
+    .cu_content_title{
+        margin-left: 3rem;
+    }
+
+}

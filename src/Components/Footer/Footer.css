@@ -1,0 +1,30 @@
+
+
+.footer div{
+    padding: 4rem 2rem 4rem 0;
+    text-align: center;
+    justify-content: left;
+}
+.footer a{
+    display: block;
+    white-space: pre-wrap;
+    margin: 1rem auto;
+}
+@media screen and (min-width : 600px) {
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: rgb(255, 244, 230);
+        margin-top: 6rem;
+        grid-auto-rows: minmax(25%, auto);
+    }
+    .footer div{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width : 850px) {
+    .footer{
+        grid-template-columns: auto auto auto auto;
+    }
+}

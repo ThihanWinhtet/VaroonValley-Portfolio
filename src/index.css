@@ -1,0 +1,67 @@
+:root {
+  --color-link : rgb(0, 0, 0);
+  --color-main : #0055ff;
+  --color-accent :  #99BBD8;
+  --color-palegray :  #CFD7E2;
+  --color-red :  #ff0000;
+  --color-gray :  #D1D1D1;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.8rem;
+  font-family: 'Poppins_Regular';
+}
+.pd2{
+  padding: 2rem;
+}
+.color_w{
+  color: white;
+  padding-right: 2rem;
+}
+.color_w img{
+  position: absolute;
+  width: 20px;
+  transition: .5s;
+  padding: 0 10px;
+  margin-top: -2px;
+}
+.bbtn:hover .color_w img{
+  padding-left: 20px;
+}
+.colorRed{
+  color: var(--color-red);
+}
+@media screen and (min-width : 600px) {
+  .pd2{
+    padding: 2rem 10%;
+  }
+}
+a{
+  text-decoration: none;
+}
+h1{
+  font-size: 3rem;
+  font-family: 'Poppins_Bold';
+}
+h3, h4{
+  font-family: 'Poppins_Bold';
+}
+li{
+  list-style-type: none;
+}
+@font-face {
+  font-family: 'Poppins_Regular';
+  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'Poppins_Bold';
+  src: url('./assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}

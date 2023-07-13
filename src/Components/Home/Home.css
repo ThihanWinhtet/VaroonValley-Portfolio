@@ -1,0 +1,39 @@
+
+.content_container{
+    margin: 5rem 0;
+}
+.content_info button{
+    background-color: rgb(73, 73, 255);
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem 4rem;
+    color: white;
+    width: 100%;
+}
+.content_info p{
+    margin: 2rem 0;
+}
+.content_img .content_img_IMG{
+    width: 100%;
+    padding: 4rem 0;
+}
+.content_img{
+    position: relative;
+}
+@media screen and (min-width : 600px) {
+    .content_container{
+        margin: 15rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content_info{
+        width: 50%;
+    }
+    .content_img{
+        width: 50vh;
+        top: -100px;
+    }
+    .content_info button{
+        width: auto;
+    }
+}

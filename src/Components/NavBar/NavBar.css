@@ -1,0 +1,33 @@
+
+.navbar{
+    justify-content: space-between;
+}
+.navbar, .navbar ul {
+    display: flex;
+}
+.navbar .navToggle img{
+    height: 20px;
+}
+.navItem{
+    display: none;
+    padding: 0 1rem;
+}
+a{
+    color: var(--color-link);
+    white-space: nowrap;
+}
+@media screen and (min-width: 600px) {
+    .navbar{
+        justify-content: space-between;
+    }
+    .navItem{
+        display: block;
+    }
+    .navToggle{
+        display: none;
+    }
+    .navItem a:target{
+        color: red;
+        background-color: aqua;
+    }
+}
