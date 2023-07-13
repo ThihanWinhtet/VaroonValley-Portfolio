@@ -10,6 +10,7 @@
 .tm_nav .navter img{
     height: 20px;
     margin: 1rem;
+    cursor: pointer;
 }
 .tm_foot{
     display: flex;

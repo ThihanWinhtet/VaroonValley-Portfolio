@@ -10,6 +10,9 @@
     border-radius: .5rem;
     box-shadow: 5px 2px 15px 0px rgba(178, 178, 178, 0.496);
 }
+.cu_main p{
+    font-size: 1.3rem;
+}
 .cu_main button{
     border: none;
     background-color: rgb(61, 123, 255);
@@ -22,10 +25,16 @@
     .contact{
         display: grid;
         grid-template-columns: auto auto;
-        margin-top: 10rem;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5rem;
     }
     .cu_content_title{
         margin-left: 3rem;
     }
-
+}
+@media screen and (min-width : 800px) {
+    .cu_main{
+        width: 500px;
+    }
 }
