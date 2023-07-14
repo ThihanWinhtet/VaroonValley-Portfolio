@@ -15,23 +15,25 @@
 }
 .content_img .content_img_IMG{
     width: 100%;
-    padding: 4rem 0;
-}
-.content_img{
-    position: relative;
+    padding: 4rem 0 0;
 }
 @media screen and (min-width : 600px) {
     .content_container{
-        margin: 15rem 0;
+        margin: 0;
+        height: 80vh;
+        padding-bottom: 20vh;
         display: flex;
+        gap: 10%;
         justify-content: space-between;
+        align-items: center;
+        background-color: rgba(240, 248, 255, 0.433);
     }
     .content_info{
-        width: 50%;
+        width: 100vh;
+        font-size: 1.5vw;
     }
     .content_img{
-        width: 50vh;
-        top: -100px;
+        width: 80vh;
     }
     .content_info button{
         width: auto;
