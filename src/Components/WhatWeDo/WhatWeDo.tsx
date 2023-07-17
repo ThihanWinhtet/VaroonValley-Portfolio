@@ -20,7 +20,7 @@ const WhatWeDo = () => {
             <img src={indeed} alt="" />
           </div>
         </div>
-        <div className="wwd_content_container pd2">
+        <div className="wwd_content_container">
           <div className="content_info">
             <small>Ready to Start</small>
             <h1>
@@ -30,7 +30,7 @@ const WhatWeDo = () => {
               From programming languages to frameworks, databases to cloud
               services, we leave no stone unturned in our pursuit of excellence.
             </p>
-            <button className="wwd_btn bbtn">
+            <button className="wwd-btn bbtn">
               <NavLink to={"/solutions"} className={"color_w"}>
                 See More {" "}
                 <small>

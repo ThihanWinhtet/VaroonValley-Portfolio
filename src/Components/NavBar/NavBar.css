@@ -5,7 +5,10 @@
 .navbar, .navbar ul {
     display: flex;
 }
-.navbar .navToggle img{
+.navToggle img{
+    height: 20px;
+}
+.closeToggle img{
     height: 20px;
 }
 .navItem{
@@ -15,6 +18,33 @@
 a{
     color: var(--color-link);
     white-space: nowrap;
+}
+.side_bar{
+    background-color:white;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+.side_bar .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.side_bar .navSide{
+    padding: 2rem;
+}
+.navSideBtn{
+    background-color: rgb(73, 73, 255);
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem 4rem;
+    color: white;
+    width: 90%;
+    margin: 2rem;
+    position: fixed;
+    bottom: 2rem;
 }
 @media screen and (min-width: 600px) {
     .navbar{
